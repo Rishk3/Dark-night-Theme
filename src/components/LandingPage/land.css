@@ -1,0 +1,29 @@
+.landPage {
+  display: flex;
+  min-height: 90vh;
+  padding: 40px;
+}
+.landPage_left {
+  transform: rotate(90deg);
+}
+.landPage_left__img {
+  min-width: 300px;
+
+  object-fit: contain;
+}
+.landPage_Right {
+  font-size: 24px;
+  padding-left: 30px;
+}
+.landPage_Right__welcome {
+  font-weight: 600;
+}
+.landPage_Right__scroll {
+  font-size: 18px;
+}
+@media only screen and (max-width: 768px) {
+  .landPage {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
